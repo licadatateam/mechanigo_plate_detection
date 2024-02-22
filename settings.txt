@@ -1,0 +1,2 @@
+{"api_key" : "c3dde72fa02542907196d1cdc8c1786cce03ee79",
+"regions" : ["ph", "us"]}
