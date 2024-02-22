@@ -31,3 +31,9 @@ if image_file is not None:
         
         score = st.metric('Confidence score',
                           value = f"{results['score']*100}%")
+
+with st.expander('Usage', expanded = False):
+    stats = pr.get_statistics()
+    
+    usage = st.metric('API Calls',
+              value = f"{stats['usage']['calls']}/{stats['total_calls']}")
