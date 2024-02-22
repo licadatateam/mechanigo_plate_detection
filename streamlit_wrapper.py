@@ -37,3 +37,5 @@ with st.expander('Usage', expanded = False):
     
     usage = st.metric('API Calls',
               value = f"{stats['usage']['calls']}/{stats['total_calls']}")
+
+    st.write(f"Reset date: {stats['resets_on']}")
